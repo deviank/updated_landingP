@@ -1,0 +1,83 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    background-image: url('https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif');
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;;
+ }
+ 
+ img{
+     border: solid grey 2px;
+     width: 180px;
+     height: 250px;
+ }
+ 
+ 
+ h1{
+     text-align: center;
+     margin-top: 55px;
+     font-size: 65px;
+ }
+ 
+ h3{
+     text-align: center;
+ }
+ 
+ .text-align{
+ 	text-align: center;
+ }
+ 
+ .fa-chevron-circle-right {
+ 	float:right;	
+ }
+ 
+ .cursor {
+  width: 40px;
+  height: 8px;
+  display: inline-block;
+  background: #111;
+  /*
+  margin-left: 1px;
+*/
+  -webkit-animation: blink 1s linear 0s infinite;
+  -moz-animation: blink 2s linear 0s infinite;
+  -ms-animation: blink 2s linear 0s infinite;
+  -o-animation: blink 2s linear 0s infinite;
+}
+@-webkit-keyframes blink {
+  0%   { background: #fff}
+  47%  { background: #fff }
+  50%  { background: #000 }
+  97%  { background: #000 }
+  100% { background: #fff }
+}
+
+@-moz-keyframes blink {
+  0%   { background: #0a0 }
+  47%  { background: #090 }
+  50%  { background: #000 }
+  97%  { background: #000 }
+  100% { background: #090 }
+}
+
+@-ms-keyframes blink {
+  0%   { background: #0a0 }
+  47%  { background: #090 }
+  50%  { background: #000 }
+  97%  { background: #000 }
+  100% { background: #090 }
+}
+
+@-o-keyframes blink {
+  0%   { background: #0a0 }
+  47%  { background: #090 }
+  50%  { background: #000 }
+  97%  { background: #000 }
+  100% { background: #090 }
+}
